@@ -1,5 +1,4 @@
 require 'tempfile'
-require 'awesome_print'
 require 'mapbox/base'
 
 module Mapbox
