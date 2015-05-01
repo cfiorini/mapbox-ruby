@@ -1,0 +1,7 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  AllowURI: true
+  Enabled: false
