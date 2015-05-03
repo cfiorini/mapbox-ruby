@@ -7,6 +7,7 @@ group :test do
   gem 'rubocop', '>= 0.27'
   gem 'vcr'
   gem 'webmock'
+  gem 'coveralls', require: false
 end
 
 gemspec

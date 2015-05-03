@@ -1,2 +1,5 @@
 .idea/
 Gemfile.lock
+*.gem
+coverage/*
+.DS_Store

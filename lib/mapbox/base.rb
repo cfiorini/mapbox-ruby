@@ -6,10 +6,11 @@ module Mapbox
   class Base
     extend Forwardable
 
-    attr_accessor :access_token, :access_token_secret
-    attr_accessor :mapid, :map_option, :map_type, :overlays
-    attr_accessor :z, :x, :y
-    attr_accessor :lat, :lon, :zoom
+    attr_accessor :map_option, :overlays
+    # attr_accessor :access_token, :access_token_secret
+    # attr_accessor :mapid, :map_type
+    # attr_accessor :z, :x, :y
+    # attr_accessor :lat, :lon, :zoom
 
     def_delegator :connection, :get, :get
 
@@ -22,7 +23,7 @@ module Mapbox
       yield(self) if block_given?
     end
 
-    def parameters_check
+    def arguments_check
       fail ArgumentError, ':access_token' if @access_token.nil?
       fail ArgumentError, ':mapid' if @mapid.nil?
     end
@@ -32,7 +33,8 @@ module Mapbox
       tmp_overlays ||= nil
 
       [API_URL, API_VERSION, @mapid, tmp_overlays,
-       @llz, @z, @x, @y, @map_option, @wh]
+       @llz, @z, @x, @y, @map_option,
+       @index, @query, @wh]
         .compact
         .join('/') + ".#{@map_type}"
     end

@@ -1,6 +1,7 @@
 require 'mapbox/overlay'
 require 'mapbox/html'
 require 'mapbox/image'
+require 'mapbox/geocode'
 require 'mapbox/version'
 
 # Gem

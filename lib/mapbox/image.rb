@@ -10,17 +10,16 @@ module Mapbox
 
       @llz = llz
       @wh = wh
-      parameters_check
+      arguments_check
     end
 
-    def parameters_check
+    def arguments_check
       super
-      fail ArgumentError,
-           ':lon must be between -180 to 180' unless (-180..180).to_a.include?(@lon)
-      fail ArgumentError,
-           ':lat must be between -85 to 85' unless (-85..85).to_a.include?(@lat)
-      fail ArgumentError,
-           ':zoom must be between 0 to 15' unless (0..15).to_a.include?(@zoom)
+      fail ArgumentError, ':width must be less than 1280' if @width > 1280
+      fail ArgumentError, ':height must be less than 1280' if @height > 1280
+      fail ArgumentError, ':lon must be between -180 to 180' unless (-180..180).to_a.include?(@lon)
+      fail ArgumentError, ':lat must be between -85 to 85' unless (-85..85).to_a.include?(@lat)
+      fail ArgumentError, ':zoom must be between 0 to 15' unless (0..15).to_a.include?(@zoom)
     end
 
     def response

@@ -6,7 +6,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'excon', '~> 0.45.3'
   spec.add_dependency 'polylines', '~> 0.2.0'
   spec.add_development_dependency 'bundler', '~> 1.0'
-  spec.add_development_dependency 'pry'
   spec.authors = ['Claudio Fiorini']
   spec.description = 'A Ruby interface to the Mapbox API.'
   spec.email = %w(claudio.fiorini@gmail.com)

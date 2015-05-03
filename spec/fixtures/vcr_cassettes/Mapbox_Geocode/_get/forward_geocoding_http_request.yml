@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tiles.mapbox.com/v4/geocode/mapbox.places/1%20ocean%20drive%20miami%20beach.json?access_token=pk.eyJ1IjoiY2Zpb3JpbmkiLCJhIjoiYndTSkpTTSJ9.amV6cXvWGA9vjXM4aclTwg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.3
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/vnd.geo+json; charset=utf-8
+      Content-Length:
+      - '850'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      Date:
+      - Sun, 03 May 2015 13:31:58 GMT
+      ETag:
+      - '"05388d7c918b15a60b126a11389a3b17"'
+      Last-Modified:
+      - Sun, 03 May 2015 13:31:58 GMT
+      Server:
+      - nginx
+      X-Powered-By:
+      - Express
+      Age:
+      - '1806'
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 1215b20e825091002cc9421604422697.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - bcPF4drUUytZzdApOxJugbbPdv7VFRPKvaKxNUmIEGp1SA7BI0DCaA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0eXBlIjoiRmVhdHVyZUNvbGxlY3Rpb24iLCJxdWVyeSI6WyIxIiwib2Nl
+        YW4iLCJkcml2ZSIsIm1pYW1pIiwiYmVhY2giXSwiZmVhdHVyZXMiOlt7Imlk
+        IjoiYWRkcmVzcy4zODAzNDc3OTAwIiwidHlwZSI6IkZlYXR1cmUiLCJ0ZXh0
+        IjoiT2NlYW4gRHIiLCJwbGFjZV9uYW1lIjoiMSBPY2VhbiBEciwgTWlhbWks
+        IDMzMTM5LCBGbG9yaWRhLCBVbml0ZWQgU3RhdGVzIiwicmVsZXZhbmNlIjow
+        LjgsImNlbnRlciI6Wy04MC4xMzI0NSwyNS43Njg5MjRdLCJnZW9tZXRyeSI6
+        eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6Wy04MC4xMzI0NSwyNS43
+        Njg5MjRdfSwiYmJveCI6Wy04MC4xMzM1NjA5OTk5OTk5OSwyNS43Njg1MTM5
+        OTk5OTk5OTMsLTgwLjEyODgzNDk5OTk5OTk4LDI1Ljc4ODAwNTk5OTk5OTk5
+        Ml0sImFkZHJlc3MiOiIxIiwicHJvcGVydGllcyI6e30sImNvbnRleHQiOlt7
+        ImlkIjoicGxhY2UuMzM4OTE3NTUwOCIsInRleHQiOiJNaWFtaSJ9LHsiaWQi
+        OiJwb3N0Y29kZS4yNjAyOTc1OTciLCJ0ZXh0IjoiMzMxMzkifSx7ImlkIjoi
+        cmVnaW9uLjM5OTgwMjEzNjYiLCJ0ZXh0IjoiRmxvcmlkYSJ9LHsiaWQiOiJj
+        b3VudHJ5LjQxNTAxMDQ1MjUiLCJ0ZXh0IjoiVW5pdGVkIFN0YXRlcyJ9XX1d
+        LCJhdHRyaWJ1dGlvbiI6Ik5PVElDRTogWW91IG1heSBjYWNoZSB0aGlzIGRh
+        dGEgZm9yIHVwIHRvIDMwIGRheXMuIMKpIDIwMTUgTWFwYm94IGFuZCBpdHMg
+        c3VwcGxpZXJzLiBBbGwgcmlnaHRzIHJlc2VydmVkLiBVc2Ugb2YgdGhpcyBk
+        YXRhIGlzIHN1YmplY3QgdG8gdGhlIE1hcGJveCBUZXJtcyBvZiBTZXJ2aWNl
+        LiAoaHR0cHM6Ly93d3cubWFwYm94LmNvbS9hYm91dC9tYXBzLykifQ==
+    http_version: 
+  recorded_at: Sun, 03 May 2015 14:02:04 GMT
+recorded_with: VCR 2.9.3

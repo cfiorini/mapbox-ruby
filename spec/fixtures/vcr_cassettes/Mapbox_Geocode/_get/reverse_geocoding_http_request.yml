@@ -1,0 +1,102 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.tiles.mapbox.com/v4/geocode/mapbox.places/-80.13245,25.768924.json?access_token=pk.eyJ1IjoiY2Zpb3JpbmkiLCJhIjoiYndTSkpTTSJ9.amV6cXvWGA9vjXM4aclTwg
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - excon/0.45.3
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      Content-Type:
+      - application/vnd.geo+json; charset=utf-8
+      Content-Length:
+      - '2410'
+      Connection:
+      - keep-alive
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - max-age=3600
+      Date:
+      - Sun, 03 May 2015 14:04:27 GMT
+      ETag:
+      - '"f16afb630ae52c3116a8f7b93c53f0ca"'
+      Last-Modified:
+      - Sun, 03 May 2015 14:04:27 GMT
+      Server:
+      - nginx
+      X-Powered-By:
+      - Express
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 3a3025640eaad9970531c0d9450c1606.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - nb3o3ndy8kVDH0HWDy7ioDjKT0CcXaD6jbB9dHsC_MBEKQ3TucZPAQ==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0eXBlIjoiRmVhdHVyZUNvbGxlY3Rpb24iLCJxdWVyeSI6Wy04MC4xMzI0
+        NSwyNS43Njg5MjRdLCJmZWF0dXJlcyI6W3siaWQiOiJhZGRyZXNzLjM4MDM0
+        Nzc5MDAiLCJ0eXBlIjoiRmVhdHVyZSIsInRleHQiOiJPY2VhbiBEciIsInBs
+        YWNlX25hbWUiOiIxIE9jZWFuIERyLCBNaWFtaSBCZWFjaCwgMzMxMzksIEZs
+        b3JpZGEsIFVuaXRlZCBTdGF0ZXMiLCJyZWxldmFuY2UiOjEsImNlbnRlciI6
+        Wy04MC4xMzI0NSwyNS43Njg5MjRdLCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9p
+        bnQiLCJjb29yZGluYXRlcyI6Wy04MC4xMzI0NSwyNS43Njg5MjRdfSwiYmJv
+        eCI6Wy04MC4xMzM1NjA5OTk5OTk5OSwyNS43Njg1MTM5OTk5OTk5OTMsLTgw
+        LjEyODgzNDk5OTk5OTk4LDI1Ljc4ODAwNTk5OTk5OTk5Ml0sImFkZHJlc3Mi
+        OiIxIiwicHJvcGVydGllcyI6e30sImNvbnRleHQiOlt7ImlkIjoicGxhY2Uu
+        MzMxMDkiLCJ0ZXh0IjoiTWlhbWkgQmVhY2gifSx7ImlkIjoicG9zdGNvZGUu
+        MjYwMjk3NTk3IiwidGV4dCI6IjMzMTM5In0seyJpZCI6InJlZ2lvbi4zOTk4
+        MDIxMzY2IiwidGV4dCI6IkZsb3JpZGEifSx7ImlkIjoiY291bnRyeS40MTUw
+        MTA0NTI1IiwidGV4dCI6IlVuaXRlZCBTdGF0ZXMifV19LHsiaWQiOiJwbGFj
+        ZS4zMzEwOSIsInR5cGUiOiJGZWF0dXJlIiwidGV4dCI6Ik1pYW1pIEJlYWNo
+        IiwicGxhY2VfbmFtZSI6Ik1pYW1pIEJlYWNoLCAzMzEzOSwgRmxvcmlkYSwg
+        VW5pdGVkIFN0YXRlcyIsInJlbGV2YW5jZSI6MSwiY2VudGVyIjpbLTgwLjEz
+        LDI1Ljc5MDZdLCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGlu
+        YXRlcyI6Wy04MC4xMywyNS43OTA2XX0sImJib3giOlstODAuMTg3MDgyMDA3
+        MjY0OSwyNS43NDc2NzY5OTAyNTEyNSwtODAuMTEwMTkxOTkwMDA2ODEsMjUu
+        ODcyNjQ0MDA5OTk5ODZdLCJwcm9wZXJ0aWVzIjp7fSwiY29udGV4dCI6W3si
+        aWQiOiJwb3N0Y29kZS4yNjAyOTc1OTciLCJ0ZXh0IjoiMzMxMzkifSx7Imlk
+        IjoicmVnaW9uLjM5OTgwMjEzNjYiLCJ0ZXh0IjoiRmxvcmlkYSJ9LHsiaWQi
+        OiJjb3VudHJ5LjQxNTAxMDQ1MjUiLCJ0ZXh0IjoiVW5pdGVkIFN0YXRlcyJ9
+        XX0seyJpZCI6InBvc3Rjb2RlLjI2MDI5NzU5NyIsInR5cGUiOiJGZWF0dXJl
+        IiwidGV4dCI6IjMzMTM5IiwicGxhY2VfbmFtZSI6IjMzMTM5LCBGbG9yaWRh
+        LCBVbml0ZWQgU3RhdGVzIiwicmVsZXZhbmNlIjoxLCJjZW50ZXIiOlstODAu
+        MTQ1ODcxLDI1Ljc4NDAzNF0sImdlb21ldHJ5Ijp7InR5cGUiOiJQb2ludCIs
+        ImNvb3JkaW5hdGVzIjpbLTgwLjE0NTg3MSwyNS43ODQwMzRdfSwiYmJveCI6
+        Wy04MC4xODcwODE5OTk5OTk5OSwyNS43NjAwNDQ5OTk5OTk5OTgsLTgwLjEx
+        OTI4NDk5OTk5OTk5LDI1LjgwNDM4Mjk5OTk5OTk5OF0sInByb3BlcnRpZXMi
+        Ont9LCJjb250ZXh0IjpbeyJpZCI6InJlZ2lvbi4zOTk4MDIxMzY2IiwidGV4
+        dCI6IkZsb3JpZGEifSx7ImlkIjoiY291bnRyeS40MTUwMTA0NTI1IiwidGV4
+        dCI6IlVuaXRlZCBTdGF0ZXMifV19LHsiaWQiOiJyZWdpb24uMzk5ODAyMTM2
+        NiIsInR5cGUiOiJGZWF0dXJlIiwidGV4dCI6IkZsb3JpZGEiLCJwbGFjZV9u
+        YW1lIjoiRmxvcmlkYSwgVW5pdGVkIFN0YXRlcyIsInJlbGV2YW5jZSI6MSwi
+        Y2VudGVyIjpbLTgxLjU1MzYxNSwyNy42NDk0MDJdLCJnZW9tZXRyeSI6eyJ0
+        eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6Wy04MS41NTM2MTUsMjcuNjQ5
+        NDAyXX0sImJib3giOlstODcuNjM0NzQzOTk5OTk5OTgsMjQuMzk5MzQ3OTk5
+        OTk5OTk2LC03OS45NzQzMDU5OTk5OTk5OCwzMS4wMDA2ODA5OTk5OTk5OTNd
+        LCJwcm9wZXJ0aWVzIjp7fSwiY29udGV4dCI6W3siaWQiOiJjb3VudHJ5LjQx
+        NTAxMDQ1MjUiLCJ0ZXh0IjoiVW5pdGVkIFN0YXRlcyJ9XX0seyJpZCI6ImNv
+        dW50cnkuNDE1MDEwNDUyNSIsInR5cGUiOiJGZWF0dXJlIiwidGV4dCI6IlVu
+        aXRlZCBTdGF0ZXMiLCJwbGFjZV9uYW1lIjoiVW5pdGVkIFN0YXRlcyIsInJl
+        bGV2YW5jZSI6MSwiY2VudGVyIjpbLTk4Ljk1ODQyNSwzNi43Nzg5NTFdLCJn
+        ZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6Wy05OC45
+        NTg0MjUsMzYuNzc4OTUxXX0sImJib3giOlstMTc5LjIzMDIzMjk5OTk5OTk3
+        LDE4Ljg2NjE1ODk5OTk5OTk5NiwxNzkuODU5NjgwOTk5OTk5OTQsNzEuNDM3
+        NzY4OTk5OTk5OTldLCJwcm9wZXJ0aWVzIjp7fX1dLCJhdHRyaWJ1dGlvbiI6
+        Ik5PVElDRTogWW91IG1heSBjYWNoZSB0aGlzIGRhdGEgZm9yIHVwIHRvIDMw
+        IGRheXMuIMKpIDIwMTUgTWFwYm94IGFuZCBpdHMgc3VwcGxpZXJzLiBBbGwg
+        cmlnaHRzIHJlc2VydmVkLiBVc2Ugb2YgdGhpcyBkYXRhIGlzIHN1YmplY3Qg
+        dG8gdGhlIE1hcGJveCBUZXJtcyBvZiBTZXJ2aWNlLiAoaHR0cHM6Ly93d3cu
+        bWFwYm94LmNvbS9hYm91dC9tYXBzLykifQ==
+    http_version: 
+  recorded_at: Sun, 03 May 2015 14:04:27 GMT
+recorded_with: VCR 2.9.3
